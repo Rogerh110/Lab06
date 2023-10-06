@@ -1,0 +1,60 @@
+html {
+  background-color: gold;
+}
+
+.bg-img {
+  width: 100vw;
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: -5;
+}
+
+h1 {
+  font-family: "bd-geminis", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 4.5em;
+  text-align: center;
+  color: aliceblue;
+}
+
+
+#planets {
+  text-align: center;
+  color: aliceblue;
+  margin: auto;
+  border: 0.1px solid aliceblue;
+  border-radius: 8px;
+  padding: 10px;
+
+}
+
+td,
+th {
+  padding: 6px;
+  font-family: "ocr-a-std", monospace;
+  font-weight: 400;
+  font-style: normal;
+  backdrop-filter: blur(2.5px);
+}
+
+.planet-img {
+  width: 150px;
+  height: 150px;
+}
+
+.planet-name,
+.category {
+  text-decoration: none;
+  color: aliceblue;
+  font-size: 1.25rem;
+  font-family: "nasalization", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.category:hover {
+  color: gold;
+}
