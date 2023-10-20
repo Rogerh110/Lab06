@@ -28,7 +28,8 @@ h1 {
   margin: auto;
   border: 0.1px solid aliceblue;
   border-radius: 8px;
-  padding: 10px;
+  padding: 10px; 
+  margin-bottom: 80px; 
 }
 
 td,
